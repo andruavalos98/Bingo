@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(37, 37, 37);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+    align-self: center;
+}
+
+#entradas {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+#tabla {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+    border: white 1px solid;
+}
+
+td {
+    text-align: center;
+    border-collapse: collapse;
+    border: white 1px solid;
+}
+
+input {
+    width: 60px;
+}
